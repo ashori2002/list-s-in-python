@@ -48,3 +48,12 @@ print(sorted(myL))
 
 myL = ["x", "c", "j", "", "k"]
 print(sorted(myL))
+
+myL = "ashori2002"
+print(sorted(myL))
+###########################################################################################
+
+# The reverse() method reverses the sorting order of the elements.
+cars = ["BMW", "benz", "volvo", "fiat", "tesla"]
+cars.reverse()
+print(cars)
