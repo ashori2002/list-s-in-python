@@ -19,7 +19,13 @@ print(myList)
 del myList[1]
 print(myList)
 
-#
+#The Python pop() method removes an item at a specified index value from a list. 
+#This method returns the item you have removed so you know what modification has been made to your list. 
+#pop() accepts one argument: the index of the item you want to remove.
 myList.pop()#Removes the end of a list
 myList.pop(0)#removes with index
+print(myList)
+
+#
+myList.remove(2002)
 print(myList)
