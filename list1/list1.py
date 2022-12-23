@@ -10,33 +10,41 @@ print(myList[1])
 myList.append("world")
 print(myList)
 
-#The insert() method inserts the specified value at the specified position.
+# The insert() method inserts the specified value at the specified position.
 myList.insert(2, "world")
 print(myList)
 
-#The del keyword is used to delete objects.
+# The del keyword is used to delete objects.
 # In Python everything is an object, so the del keyword can also be used to delete variables, lists, or parts of a list etc.
 del myList[1]
 print(myList)
 
-#The Python pop() method removes an item at a specified index value from a list. 
-#This method returns the item you have removed so you know what modification has been made to your list. 
-#pop() accepts one argument: the index of the item you want to remove.
-myList.pop()#Removes the end of a list
-myList.pop(0)#removes with index
+# The Python pop() method removes an item at a specified index value from a list.
+# This method returns the item you have removed so you know what modification has been made to your list.
+# pop() accepts one argument: the index of the item you want to remove.
+myList.pop()  # Removes the end of a list
+myList.pop(0)  # removes with index
 print(myList)
 
-#The remove() method removes the first occurrence of the element with the specified value.
+# The remove() method removes the first occurrence of the element with the specified value.
 myList.remove(2002)
 print(myList)
 
-#________________________________________________________________________________________
+# ________________________________________________________________________________________
 
-myL=[8,2,1,6,9]
+myL = [8, 2, 1, 6, 9]
 
 myL.sort()
 print(myL)
 
-myL=["x","c","j","","k"]
+myL = ["x", "c", "j", "", "k"]
 myL.sort()
 print(myL)
+
+# ----------------------------------------------------------------------------------------
+myL = [8, 2, 1, 6, 9]
+print(sorted(myL))
+
+
+myL = ["x", "c", "j", "", "k"]
+print(sorted(myL))
