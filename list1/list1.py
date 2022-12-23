@@ -14,5 +14,12 @@ print(myList)
 myList.insert(2, "world")
 print(myList)
 
+#The del keyword is used to delete objects.
+# In Python everything is an object, so the del keyword can also be used to delete variables, lists, or parts of a list etc.
 del myList[1]
+print(myList)
+
+#
+myList.pop()#Removes the end of a list
+myList.pop(0)#removes with index
 print(myList)
