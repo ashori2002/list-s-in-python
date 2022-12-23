@@ -26,6 +26,17 @@ myList.pop()#Removes the end of a list
 myList.pop(0)#removes with index
 print(myList)
 
-#
+#The remove() method removes the first occurrence of the element with the specified value.
 myList.remove(2002)
 print(myList)
+
+#________________________________________________________________________________________
+
+myL=[8,2,1,6,9]
+
+myL.sort()
+print(myL)
+
+myL=["x","c","j","","k"]
+myL.sort()
+print(myL)
