@@ -57,3 +57,13 @@ print(sorted(myL))
 cars = ["BMW", "benz", "volvo", "fiat", "tesla"]
 cars.reverse()
 print(cars)
+
+###########################################################################################
+# The len() function returns the number of items in an object.
+# When the object is a string, the len() function returns the number of characters in the string.
+print(len("str"))
+
+# ******************************************************************************************
+
+for car in cars:
+    print("==========>" + car)
